@@ -1,0 +1,72 @@
+/*
+SMELLYWORMS
+© 2026 // Lee Ross
+
+---------------------------
+DOCUMENT CONTENT:
+---------------------------
+    1. GENERAL
+    2. HEADER
+    3. STORE
+    4. FOOTER
+---------------------------
+
+*/
+
+/*-------------------------
+    1. GENERAL
+-------------------------*/
+
+:root{
+    --main-color: #FF80B9;
+    --sec-color: #FFA6CE;
+
+    --bg-light: #FFFFFF;
+    --bg-dark: #171A1A;
+
+    --text: #000000
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--bg-light);
+    color: var(--text)
+}
+    
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: var(--bg-light);
+    position: sticky;
+    top: 0
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+.header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: var(--main-color)
+}
+    
+/* Store */
+.store {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px
+} 
+    
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 40px;
+    color: var(--bg-dark)
+}
